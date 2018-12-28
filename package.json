@@ -1,0 +1,39 @@
+{
+  "name": "@qudian_mobile/qd-react-native-image-pan-zoom",
+  "version": "0.1.1",
+  "description": "图片伸缩预览",
+  "main": "built/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudianapp/qd-react-native-image-pan-zoom.git"
+  },
+  "keywords": [
+    "react-native",
+    "image"
+  ],
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "ascoders-tslint-config": "^1.0.2",
+    "react": "*",
+    "react-native": "*",
+    "tslint": "^5.8.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "scripts": {
+    "prepare": "rm -rf built && tsc",
+    "start": "tsc -w --outDir demo/built"
+  },
+  "types": "built/index.d.ts",
+  "author": "phoobobo@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qudianapp/qd-react-native-image-pan-zoom/issues"
+  },
+  "homepage": "https://github.com/qudianapp/qd-react-native-image-pan-zoom#readme"
+}
